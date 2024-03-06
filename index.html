@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="wrapper">
+        <div class="flex-container" id="start-modal">   
+            <button class="btn" id="startBtn">START</button>
+        </div>
+        <div class="display-none flex-container" id="question-container">
+            <div>
+                <div class="item-timer">
+                    <div id="userScore">Score: 0</div>
+                    <div id="items">0/10</div>
+                </div>
+                <div id="timer">Timer: 10</div>
+                <div id="question">
+                    <div id="operand1"></div>
+                    <div id="operator"></div>
+                    <div id="operand2"></div>
+                </div>
+                <div id="userInputContainer">
+                    <input type="text" id="userAnswer" autocomplete="off">
+                    <button class="btn" id="enterBtn">ENTER</button>
+                </div>
+            </div>
+        </div>
+        <div class="display-none flex-container" id="modal">
+            <p id="done-score">Your Score: </p>
+            <p class="play-again">PLAY AGAIN?</p>
+            <div id="modal-btn">
+                <button class="btn" id="yes-btn">YES</button>
+                <button class="btn" id="no-btn">NO</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

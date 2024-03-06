@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.container {
+    width: 300px;
+    min-height: 300px;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.display-none {
+    display: none;
+}
+
+.item-timer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+#start-modal {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    inset: 0;
+    z-index: 99;
+}
+
+#question-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+}
+
+#modal {
+    width: 100%;
+    height: 100%;
+}
+
+#startBtn {
+    background-color: rgb(242, 178, 59);
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 5px;
+}
+
+#timer {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#question {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+#userInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#userAnswer {
+    padding: 5px;
+    font-size: 1.2rem;
+    border: 2px solid rgb(242, 178, 59);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#enterBtn {
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(242, 178, 59);
+    border: none;
+    border-radius: 5px;
+}
+
+#done-score {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.play-again {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#modal-btn {
+    display: flex;
+}
+
+#yes-btn, #no-btn {
+    padding: 5px 20px;
+    margin: 0 10px;
+}
+
+#yes-btn {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#no-btn {
+    background-color: rgb(225, 49, 49);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}

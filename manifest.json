@@ -1,0 +1,10 @@
+{
+    "name": "Math Practice",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "author": "Raul Tindogan",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Math Practice"
+    }
+}
